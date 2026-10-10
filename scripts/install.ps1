@@ -24,8 +24,8 @@
   $Repo = 'bammondd-collab/ccbell'
   $BridgeVsix = 'ccbell-bridge.vsix'
   # Written by `npm run pack`: the release this installer downloads and its zip's SHA-256.
-  $Version = '1.0.0'
-  $ZipSha256 = '2DDFC29B58C120EE32E50273931D352423713B7030E62FBB8B70E930353FBA77'
+  $Version = '1.0.1'
+  $ZipSha256 = 'A535C3150E32C7A8F427C0A7FFEA35B914288BBB3FB18910D484A1B4633FDFC9'
   # Earlier installs under another name: stopped, unregistered and removed (their settings are copied over).
   $LegacyInstalls = @(@{ Product = 'Session Widget'; ExeName = 'SessionWidget' })
   $LegacyBridgeIds = @('jjmma.session-widget-bridge')
